@@ -1,0 +1,31 @@
+; Legends Nudge Bridge - example configuration.
+; The app writes its own nudge.ini next to the exe; this file is just a reference.
+; Button numbers and vid/pid below are placeholders - use Setup to learn yours.
+
+[binding.left]
+label  = Nudge Left
+vid    = 0x0000
+pid    = 0x0000
+button = 0
+key    = Z
+
+[binding.right]
+label  = Nudge Right
+vid    = 0x0000
+pid    = 0x0000
+button = 0
+key    = SLASH
+
+[binding.forward]
+label  = Nudge Forward
+vid    = 0x0000
+pid    = 0x0000
+button = 0
+key    = SPACE
+
+[options]
+mode      = hold
+pulse_ms  = 60
+only_when = Future Pinball.exe, FPLoader.exe, BAM.exe
+poll_ms   = 2
+log       = 0

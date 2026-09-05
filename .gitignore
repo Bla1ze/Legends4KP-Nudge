@@ -1,0 +1,4 @@
+build/
+# dist/LegendsNudge.exe is committed on purpose so people can just download it
+nudge.ini
+nudge-log.txt
